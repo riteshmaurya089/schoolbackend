@@ -10,7 +10,7 @@ const adminSchema = mongoose.Schema({
     },
     verified:{
         type: Boolean,
-        default: false,
+        default: true,
     },
 })
 
